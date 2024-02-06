@@ -22,8 +22,3 @@ variable "os" {
   type = string
   default = "ubuntu-os-cloud/ubuntu-2004-lts"
 }
-
-variable "project_name" {
-  type = string
-  default = "strange-mind-410708"
-}

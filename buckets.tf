@@ -8,3 +8,5 @@ resource "google_storage_bucket" "storage_bucket" {
   name = each.key
   location = "europe-west1"
 }
+
+
